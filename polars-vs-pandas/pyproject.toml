@@ -1,0 +1,22 @@
+[project]
+name = "polars-vs-pandas"
+version = "0.1.0"
+description = "Add your description here"
+authors = [{ name = "Khalid Elborai", email = "elboraikhalid@gmail.com" }]
+dependencies = [
+    "pandas>=2.2.2",
+    "polars>=1.5.0",
+    "pyperf>=2.7.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+virtual = true
+
+dev-dependencies = []
+
+[tool.pyright]
+venvPath = ".venv"
+venv= "."
